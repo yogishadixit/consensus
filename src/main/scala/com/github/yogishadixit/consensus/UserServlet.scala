@@ -1,6 +1,7 @@
 package com.github.yogishadixit.consensus
 
 // JSON-related libraries
+import com.github.yogishadixit.consensus.models.User
 import org.json4s.{DefaultFormats, Formats}
 import org.scalatra.ErrorHandler
 
