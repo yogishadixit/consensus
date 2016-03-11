@@ -13,4 +13,5 @@ class ConsensusServlet extends ConsensusStack {
     </html>
   }
 
+  override def error(handler: ErrorHandler): Unit = ???
 }
