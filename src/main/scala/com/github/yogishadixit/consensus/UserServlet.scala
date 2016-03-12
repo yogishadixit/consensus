@@ -41,5 +41,5 @@ class UserServlet extends ConsensusStack with JacksonJsonSupport {
 }
 
 object UserData {
-  var users : ListBuffer[User] = new ListBuffer[User]()
+  val users : ListBuffer[User] = new ListBuffer[User]()
 }

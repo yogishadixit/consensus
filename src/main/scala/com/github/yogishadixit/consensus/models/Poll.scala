@@ -7,8 +7,9 @@ import scala.collection.mutable.ListBuffer
 /**
   * Created by yogishadixit on 3/11/16.
   */
-case class Poll(creator: User,
+case class Poll(id : Int,
+                creatorId: Int,
                 timestamp: Timestamp,
-                users: ListBuffer[User],
-                suggestions: ListBuffer[Suggestion],
-                consensus: Suggestion) extends Activity
+                userIds: ListBuffer[Int],
+                suggestionIds: ListBuffer[Int],
+                decisionId: Int) extends Activity

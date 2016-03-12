@@ -5,7 +5,8 @@ import java.sql.Timestamp
 /**
   * Created by yogishadixit on 3/11/16.
   */
-case class Vote(creator: User,
+case class Vote(id : Int,
+                creatorId: Int,
                 timestamp: Timestamp,
-                place : Place,
-                vote : Boolean)
+                suggestionId: Int,
+                vote : Boolean) extends Activity
