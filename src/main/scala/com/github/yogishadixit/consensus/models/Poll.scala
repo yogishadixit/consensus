@@ -11,4 +11,4 @@ case class Poll(creator: User,
                 timestamp: Timestamp,
                 users: ListBuffer[User],
                 suggestions: ListBuffer[Suggestion],
-                consensus: Suggestion)
+                consensus: Suggestion) extends Activity
